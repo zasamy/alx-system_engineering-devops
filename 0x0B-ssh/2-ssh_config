@@ -1,0 +1,4 @@
+# SSH client config file to refuse authenticating with a password
+Host 100.26.53.78
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
